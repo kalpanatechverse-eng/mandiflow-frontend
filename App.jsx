@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AlertTriangle, ShieldCheck, RefreshCw } from 'lucide-react';
 
-const BACKEND_URL = "YOUR_RENDER_BACKEND_URL"; // <-- Unga Render URL-ah inga paste pannunga
+const BACKEND_URL = "https://mandiflow-backend.onrender.com"; // <-- Unga Render URL-ah inga paste pannunga
 
 export default function App() {
   const [commodity, setCommodity] = useState("Paddy");
